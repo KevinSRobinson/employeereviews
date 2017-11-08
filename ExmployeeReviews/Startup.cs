@@ -14,11 +14,11 @@ namespace ExmployeeReviews
         {
             using (var db = new EmployeeReviewsContext())
             {
-                db.Employees.Add(new Employee { FirstName = "Kevin ", LastName = "Robinson" });
-                db.SaveChanges();
+                //db.Employees.Add(new Employee { FirstName = "Kevin ", LastName = "Robinson" });
+                //db.SaveChanges();
 
-                db.Reviews.Add(new Review { Comments = "dsfdsf sdfdsfdsfdsf" });
-                db.SaveChanges();
+                //db.Reviews.Add(new Review { Comments = "dsfdsf sdfdsfdsfdsf" });
+                //db.SaveChanges();
             }
 
             ConfigureAuth(app);

@@ -1,0 +1,14 @@
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\DtoRepos.dll.config
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\DtoRepos.dll
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\DtoRepos.pdb
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\Data.dll
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\Dtos.dll
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\EntityFramework.dll
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\EntityFramework.SqlServer.dll
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\Data.pdb
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\Dtos.pdb
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\EntityFramework.xml
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\bin\Debug\EntityFramework.SqlServer.xml
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\obj\Debug\DtoRepos.csprojResolveAssemblyReference.cache
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\obj\Debug\DtoRepos.dll
+C:\repos\WebApiSample\ExmployeeReviews\DtoRepos\obj\Debug\DtoRepos.pdb

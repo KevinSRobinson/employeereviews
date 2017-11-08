@@ -77,3 +77,7 @@ C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\obj\Debug\ExmployeeRevie
 C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\obj\Debug\ExmployeeReviews.pdb
 C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\Data.dll
 C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\Data.pdb
+C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\DtoRepos.dll
+C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\Dtos.dll
+C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\DtoRepos.pdb
+C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\Dtos.pdb

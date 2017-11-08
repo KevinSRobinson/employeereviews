@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DtoRepos;
+using Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,13 +9,21 @@ using System.Web.Http;
 
 namespace ExmployeeReviews.Controllers
 {
-    [Authorize]
+    
     public class ValuesController : ApiController
     {
+        private IEmployeeDtoRepo _employeeDtoRepo;
+
+        public ValuesController() {
+            _employeeDtoRepo = new EmployeeDtoRepo(new EmployeeReviewsContext());            
+        }
+
         // GET api/values
-        public IEnumerable<string> Get()
+
+          
+        public IEnumerable<EmployeeDto> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _employeeDtoRepo.Get();
         }
 
         // GET api/values/5

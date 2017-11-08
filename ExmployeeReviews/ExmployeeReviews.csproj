@@ -292,6 +292,14 @@
       <Project>{004a0e96-08bd-4d57-84a4-f229782e2e11}</Project>
       <Name>Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DtoRepos\DtoRepos.csproj">
+      <Project>{0ca87588-b249-4921-a060-c0cb7465bf2d}</Project>
+      <Name>DtoRepos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dtos\Dtos.csproj">
+      <Project>{E8A9FE5F-20B7-4DA7-907C-A62FFDA65ECC}</Project>
+      <Name>Dtos</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -35,6 +35,8 @@ public class Review
 
     public string Comments { get; set; }
 
+    public int Rating { get; set; }
+
     public DateTime Date { get; set; }
    
 

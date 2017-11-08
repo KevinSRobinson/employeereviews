@@ -1,0 +1,5 @@
+C:\repos\WebApiSample\ExmployeeReviews\Dtos\bin\Debug\Dtos.dll
+C:\repos\WebApiSample\ExmployeeReviews\Dtos\bin\Debug\Dtos.pdb
+C:\repos\WebApiSample\ExmployeeReviews\Dtos\obj\Debug\Dtos.csprojResolveAssemblyReference.cache
+C:\repos\WebApiSample\ExmployeeReviews\Dtos\obj\Debug\Dtos.dll
+C:\repos\WebApiSample\ExmployeeReviews\Dtos\obj\Debug\Dtos.pdb
