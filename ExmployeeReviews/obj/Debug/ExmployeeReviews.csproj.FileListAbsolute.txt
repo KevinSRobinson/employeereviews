@@ -75,3 +75,5 @@ C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\System.Web.Http.Owin
 C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\obj\Debug\ExmployeeReviews.csprojResolveAssemblyReference.cache
 C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\obj\Debug\ExmployeeReviews.dll
 C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\obj\Debug\ExmployeeReviews.pdb
+C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\Data.dll
+C:\repos\WebApiSample\ExmployeeReviews\ExmployeeReviews\bin\Data.pdb
