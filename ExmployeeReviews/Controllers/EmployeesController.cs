@@ -10,11 +10,11 @@ using System.Web.Http;
 namespace ExmployeeReviews.Controllers
 {
     
-    public class ValuesController : ApiController
+    public class EmployeesController : ApiController
     {
         private IEmployeeDtoRepo _employeeDtoRepo;
 
-        public ValuesController() {
+        public EmployeesController() {
             _employeeDtoRepo = new EmployeeDtoRepo(new EmployeeReviews());            
         }
 

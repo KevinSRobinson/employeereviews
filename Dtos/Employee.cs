@@ -16,7 +16,7 @@ namespace Dtos
 
         public string Tel { get; set; }
 
-        public List<Review> Reviews { get; set; }
+        public List<ReviewDto> Reviews { get; set; }
     }
 
 

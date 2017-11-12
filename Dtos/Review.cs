@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Dtos
 {
 
-    public class Review
+    public class ReviewDto
     {
         public int Id { get; set; }
 
