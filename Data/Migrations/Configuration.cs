@@ -5,15 +5,14 @@ namespace Data.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<EmployeeReviewsContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<EmployeeReviews>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "EmployeeReviewsContext";
         }
 
-        protected override void Seed(EmployeeReviewsContext context)
+        protected override void Seed(EmployeeReviews context)
         {
             //  This method will be called after migrating to the latest version.
 

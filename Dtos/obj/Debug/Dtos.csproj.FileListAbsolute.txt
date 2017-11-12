@@ -3,3 +3,8 @@ C:\repos\WebApiSample\ExmployeeReviews\Dtos\bin\Debug\Dtos.pdb
 C:\repos\WebApiSample\ExmployeeReviews\Dtos\obj\Debug\Dtos.csprojResolveAssemblyReference.cache
 C:\repos\WebApiSample\ExmployeeReviews\Dtos\obj\Debug\Dtos.dll
 C:\repos\WebApiSample\ExmployeeReviews\Dtos\obj\Debug\Dtos.pdb
+C:\NewWorkingFolder\EmployeeReviews\Dtos\bin\Debug\Dtos.dll
+C:\NewWorkingFolder\EmployeeReviews\Dtos\bin\Debug\Dtos.pdb
+C:\NewWorkingFolder\EmployeeReviews\Dtos\obj\Debug\Dtos.csproj.CoreCompileInputs.cache
+C:\NewWorkingFolder\EmployeeReviews\Dtos\obj\Debug\Dtos.dll
+C:\NewWorkingFolder\EmployeeReviews\Dtos\obj\Debug\Dtos.pdb

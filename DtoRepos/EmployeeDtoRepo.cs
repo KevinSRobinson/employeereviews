@@ -8,19 +8,35 @@ namespace DtoRepos
     public interface IEmployeeDtoRepo
     {
         IEnumerable<EmployeeDto> Get();
+        void Create(EmployeeDto employeeDto);
     }
 
     public class EmployeeDtoRepo : IEmployeeDtoRepo
     {
-        private EmployeeReviewsContext _ctx;
+        private EmployeeReviews _ctx;
 
-        public EmployeeDtoRepo(EmployeeReviewsContext ctx){
+        public EmployeeDtoRepo(EmployeeReviews ctx){
             _ctx = ctx;
         }
 
         public IEnumerable<EmployeeDto> Get()
         {
-            return _ctx.Employees.Select(x=> new EmployeeDto() { Id = x.Id, FirstName = x.FirstName, LastName = x.LastName});
+            return _ctx.Employees.Select(x => new EmployeeDto() { Id = x.Id, FirstName = x.FirstName, LastName = x.LastName });
         }
-    }
+
+        public void Create(EmployeeDto employeeDto)
+            {
+
+                var employee = new Employee()
+                {
+                    Id = employeeDto.Id,
+                    FirstName = employeeDto.FirstName,
+                    LastName = employeeDto.LastName,
+                    Tel = employeeDto.Tel
+                };
+
+                _ctx.Employees.Add(employee);
+            _ctx.SaveChanges();
+            }
+        }
 }

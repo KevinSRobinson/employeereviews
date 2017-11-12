@@ -1,1 +1,10 @@
 packages/
+ExmployeeReviews/obj/
+ExmployeeReviews/bin/roslyn/Microsoft.CodeAnalysis.dll
+ExmployeeReviews/bin/
+DtoRepos/obj/
+Data/obj/
+DtoRepos/bin/
+Dtos/bin/
+Data/bin/
+Dtos/obj/

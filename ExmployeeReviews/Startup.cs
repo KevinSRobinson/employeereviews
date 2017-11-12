@@ -12,13 +12,13 @@ namespace ExmployeeReviews
     {
         public void Configuration(IAppBuilder app)
         {
-            using (var db = new EmployeeReviewsContext())
+            using (var db = new EmployeeReviews())
             {
-                //db.Employees.Add(new Employee { FirstName = "Kevin ", LastName = "Robinson" });
-                //db.SaveChanges();
+                db.Employees.Add(new Employee { FirstName = "Kevin ", LastName = "Robinson", Tel = "99999" });
+                db.SaveChanges();
 
-                //db.Reviews.Add(new Review { Comments = "dsfdsf sdfdsfdsfdsf" });
-                //db.SaveChanges();
+                db.Reviews.Add(new Review { Comments = "dsfdsf sdfdsfdsfdsf" });
+                db.SaveChanges();
             }
 
             ConfigureAuth(app);

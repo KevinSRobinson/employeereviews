@@ -10,3 +10,15 @@ C:\repos\WebApiSample\ExmployeeReviews\Data\obj\Debug\Data.dll
 C:\repos\WebApiSample\ExmployeeReviews\Data\obj\Debug\Data.pdb
 C:\repos\WebApiSample\ExmployeeReviews\Data\obj\Debug\Data.Migrations.InitialCreate.resources
 C:\repos\WebApiSample\ExmployeeReviews\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\NewWorkingFolder\EmployeeReviews\Data\bin\Debug\Data.dll.config
+C:\NewWorkingFolder\EmployeeReviews\Data\bin\Debug\Data.dll
+C:\NewWorkingFolder\EmployeeReviews\Data\bin\Debug\Data.pdb
+C:\NewWorkingFolder\EmployeeReviews\Data\bin\Debug\EntityFramework.dll
+C:\NewWorkingFolder\EmployeeReviews\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\NewWorkingFolder\EmployeeReviews\Data\bin\Debug\EntityFramework.xml
+C:\NewWorkingFolder\EmployeeReviews\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\NewWorkingFolder\EmployeeReviews\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\NewWorkingFolder\EmployeeReviews\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\NewWorkingFolder\EmployeeReviews\Data\obj\Debug\Data.dll
+C:\NewWorkingFolder\EmployeeReviews\Data\obj\Debug\Data.pdb
+C:\NewWorkingFolder\EmployeeReviews\Data\obj\Debug\Data.Migrations.201711081632248_InitialCreate.resources

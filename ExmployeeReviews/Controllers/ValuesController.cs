@@ -15,7 +15,7 @@ namespace ExmployeeReviews.Controllers
         private IEmployeeDtoRepo _employeeDtoRepo;
 
         public ValuesController() {
-            _employeeDtoRepo = new EmployeeDtoRepo(new EmployeeReviewsContext());            
+            _employeeDtoRepo = new EmployeeDtoRepo(new EmployeeReviews());            
         }
 
         // GET api/values
@@ -33,8 +33,9 @@ namespace ExmployeeReviews.Controllers
         }
 
         // POST api/values
-        public void Post([FromBody]string value)
+        public void Post(EmployeeDto employeeDto)
         {
+            _employeeDtoRepo.Create(employeeDto);
         }
 
         // PUT api/values/5
