@@ -9,6 +9,7 @@ namespace DtoRepos
     {
         IEnumerable<EmployeeDto> Get();
         void Create(EmployeeDto employeeDto);
+        void Update(EmployeeDto employeeDto);
     }
 
     public class EmployeeDtoRepo : IEmployeeDtoRepo
@@ -38,5 +39,18 @@ namespace DtoRepos
                 _ctx.Employees.Add(employee);
             _ctx.SaveChanges();
             }
+       
+
+        public void Update(EmployeeDto employeeDto)
+        {
+           var employee = _ctx.Employees.FirstOrDefault(x => x.Id == employeeDto.Id);
+                        
+            employee.FirstName = employeeDto.FirstName;
+            employee.LastName = employeeDto.LastName;
+            employee.Tel = employeeDto.Tel;
+                   
+            _ctx.SaveChanges();
         }
+    }
 }
+

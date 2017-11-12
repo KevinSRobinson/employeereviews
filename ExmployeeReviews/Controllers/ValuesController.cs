@@ -39,8 +39,9 @@ namespace ExmployeeReviews.Controllers
         }
 
         // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(EmployeeDto employeeDto)
         {
+            _employeeDtoRepo.Update(employeeDto);
         }
 
         // DELETE api/values/5
